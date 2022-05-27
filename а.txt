@@ -1,0 +1,16 @@
+speed Infinity
+rt 90
+for [1..5]
+  for [1..2]
+    box blue, 50
+    fd 50
+    box red, 50
+    fd 50
+    box yellow, 50
+    fd 50
+  pu()
+  lt 90
+  fd 50
+  lt 90
+  fd 250
+  lt 180
